@@ -17,7 +17,7 @@ text-align:right;
 font-family: 'Dancing Script', cursive;
 }
 .card-img-top{
-border-radius: 50%;
+border-radius: 100%;
 width:5em;
 text-align:center;
 }
@@ -25,7 +25,7 @@ text-align:center;
 width:20%;
 margin-bottom:15px;
 background-color: lightblue;
-border-radius: 100%;
+border-radius: 50%;
 }
 .profile{
 font-family: 'Dancing Script', cursive;
@@ -40,4 +40,54 @@ background-img:blue;
 }
 time{
 font-family: 'Dancing Script', cursive;
+}
+body{
+    background-color: lightblue;
+}
+.links{
+    border: 2px lightblue solid;
+    padding: 10px;
+    text-align: center;
+}
+
+#myForm{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    margin:35px auto;
+}
+input[type=submit] {
+    color: black;
+    padding: 12px  20px;
+    border-radius: 4px;
+    cursor: pointer;
+    //float: left;
+    margin-top: 20px;
+     margin-bottom: 20px;
+}
+label {
+    color: #464646;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 14px;
+}
+.f {
+    //float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display:table;
+    clear: both;
+}
+input[type=reset] {
+    background-color:yellow;
+    color: black;
+    padding: 12px  20px;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 20px;
 }
