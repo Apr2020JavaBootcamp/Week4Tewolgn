@@ -1,0 +1,41 @@
+
+body{
+background-image:url("https://eastendssa.net/wp-content/uploads/2016/02/blog-background.jpg");
+}
+
+.logo{
+margin-top:30px;
+text-align:center;
+font-family: 'Homemade Apple', cursive;
+}
+.navbar-nav{
+font-family: 'Dancing Script', cursive;
+text-align:right;
+
+}
+.entry{
+font-family: 'Dancing Script', cursive;
+}
+.card-img-top{
+border-radius: 50%;
+width:5em;
+text-align:center;
+}
+.card{
+width:20%;
+margin-bottom:15px;
+background-color: lightblue;
+border-radius: 100%;
+}
+.profile{
+font-family: 'Dancing Script', cursive;
+color:black;
+}
+.btn{
+color:blue;
+}
+.gt{
+background-img:blue;
+
+}
+
